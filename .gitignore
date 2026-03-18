@@ -1,0 +1,34 @@
+# ── Build outputs ──
+*.apk
+*.aab
+*.ap_
+*.dex
+build/
+.gradle/
+
+# ── Local configuration ──
+local.properties
+*.local
+
+# ── IDE ──
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Original 4K videos (backed-up, not needed in repo) ──
+app/src/main/res/raw/_originals/
+
+# ── Signing ──
+*.jks
+*.keystore
+signing.properties
+
+# ── Logs / crash dumps ──
+*.log
+*.hprof
+
+# ── OS junk ──
+[Dd]esktop.ini
+$RECYCLE.BIN/
